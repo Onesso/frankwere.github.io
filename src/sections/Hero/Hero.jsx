@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./HeroStyles.module.css";
-import heroimg from "../../assets/hero-img.png";
+
+import profile from "../../assets/profile.jpg"
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import xIconlight from "../../assets/twitter-light.svg";
@@ -27,7 +28,8 @@ function Hero() {
       <div className={styles.colorModeContainer}>
         <img
           className={styles.hero}
-          src={heroimg}
+          //src={heroimg}
+          src={profile}
           alt="profile image of Frank were"
         />
 
@@ -52,14 +54,14 @@ function Hero() {
             <img src={xIcon} alt="x icon" />
           </a>
           <a
-            href="https://github.com/FrankOdhis1"
+            href="https://github.com/Onesso"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={githubIcon} alt="github icon" />
           </a>
           <a
-            href="https://linkedin.com/FrankOdhis1"
+            href="https://www.linkedin.com/in/frank-were-707780232/"
             target="_blank"
             rel="noopener noreferrer"
           >
