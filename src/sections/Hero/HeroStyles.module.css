@@ -49,8 +49,10 @@
 
 .colorModeContainer {
   position: relative;
+
   img{
     border-radius: 50%;
+    
   }
 }
 
@@ -81,6 +83,7 @@
     .hero{
       max-width: 350px;
       width: 350px;
+      z-index: -1;
     }
   }
 }
