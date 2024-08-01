@@ -1,10 +1,19 @@
 import styles from "./ContactStyles.module.css";
 
 function Contact() {
+  function submitForm() {
+    //document.contact-form.submit();
+    document.contact - form.reset();
+  }
+
   return (
     <section id="contact" className={styles.container}>
       <h1 className="sectionTitle">Contact</h1>
-     <form action="https://formsubmit.co/frankwere1965@gmail.com" method="POST" target="_blank">
+      <form
+        action="https://formsubmit.co/frankwere1965@gmail.com"
+        method="POST"
+        //target="_blank"
+      >
         <div className="formGroup">
           <label htmlFor="name" hidden>
             Name

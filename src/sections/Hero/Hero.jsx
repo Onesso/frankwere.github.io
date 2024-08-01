@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./HeroStyles.module.css";
 
-import profile from "../../assets/profile.jpg"
+import profile from "../../assets/profile11.jpg"
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import xIconlight from "../../assets/twitter-light.svg";
