@@ -1,6 +1,5 @@
 import React from "react";
 import { useRef } from "react";
-import classNames from "classnames";
 import styles from "./NavbarStyles.module.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -13,13 +12,9 @@ export default function Navbar() {
 
   return (
     <>
-      <section id="Navbar" className={styles.container}>
-        <header>
-          <button onClick={showNavbar}>
-            <FaBars />
-          </button>
-
-          <nav ref={navRef}>
+      <div id="Navbar" className={styles.container}>
+        <header className={styles.Kichwa}>
+          <nav className={styles.manavs} ref={navRef}>
             <a href="">Projects</a>
             <a href="">Skills</a>
             <a href="">Contacts</a>
@@ -28,8 +23,11 @@ export default function Navbar() {
               <FaTimes />
             </button>
           </nav>
+          <button className={styles.nav_btn_bars} onClick={showNavbar}>
+            <FaBars />
+          </button>
         </header>
-      </section>
+      </div>
     </>
   );
 }
