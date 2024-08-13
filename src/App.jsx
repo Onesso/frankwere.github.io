@@ -9,7 +9,6 @@ import Footer from "./sections/Footer/Footer";
 function App() {
   return (
     <>
-      
       <Navbar />
       <Hero />
       <Projects />

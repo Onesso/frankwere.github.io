@@ -4,11 +4,13 @@
   justify-content: center;
   gap: 20px;
   text-align: center;
-  height: 100dvh;
+  height: auto;
   min-height: 500px;
 
   .hero {
+    position: relative;
     max-width: 200px;
+    
   }
   span {
     display: flex;
@@ -49,11 +51,9 @@
 
 .colorModeContainer {
   position: relative;
-
-
-  img{
+ 
+  img {
     border-radius: 50%;
-    
   }
 }
 
@@ -81,7 +81,7 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-evenly;
-    .hero{
+    .hero {
       max-width: 350px;
       width: 350px;
       z-index: -1;
@@ -90,9 +90,8 @@
 }
 
 @media (width >=800px) {
-    .hero{
-      max-width: 400px;
-      width: 400px;
-    }
+  .hero {
+    max-width: 400px;
+    width: 400px;
   }
-
+}

@@ -25,57 +25,60 @@ function Hero() {
 
   return (
     <section id="hero" className={styles.container}>
-      <div className={styles.colorModeContainer}>
-        <img
-          className={styles.hero}
-          //src={heroimg}
-          src={profile}
-          alt="profile image of Frank were"
-        />
+        <div className={styles.colorModeContainer}>
+          <img
+            className={styles.hero}
+            //src={heroimg}
+            src={profile}
+            alt="profile image of Frank were"
+          />
 
-        <img
-          onClick={toggleTheme}
-          className={styles.colorMode}
-          src={themeIcon}
-          alt="color mode icon"
-        />
-      </div>
-      <div className={styles.info}>
-        <h1>
-          Frank <br /> Were
-        </h1>
-        <h2>Fullstack Developer</h2>
-        <span>
-          <a
-            href="https://x.com/FrankOdhis1"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={xIcon} alt="x icon" />
+          <img
+            onClick={toggleTheme}
+            className={styles.colorMode}
+            src={themeIcon}
+            alt="color mode icon"
+          />
+        </div>
+
+        
+        <div className={styles.info}>
+          <h1>
+            Frank <br /> Were
+          </h1>
+          <h2>Fullstack Developer</h2>
+          <span>
+            <a
+              href="https://x.com/FrankOdhis1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={xIcon} alt="x icon" />
+            </a>
+            <a
+              href="https://github.com/Onesso"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={githubIcon} alt="github icon" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/frank-were-707780232/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={linkedinIcon} alt="linkedin icon" />
+            </a>
+          </span>
+          <p className={styles.description}>
+            With a passion of developing enterprise applications with React and
+            Django
+          </p>
+          <a href={cv} download>
+            <button className="hover">Resume</button>
           </a>
-          <a
-            href="https://github.com/Onesso"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={githubIcon} alt="github icon" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/frank-were-707780232/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={linkedinIcon} alt="linkedin icon" />
-          </a>
-        </span>
-        <p className={styles.description}>
-          With a passion of developing enterprise applications with React and
-          Django
-        </p>
-        <a href={cv} download>
-          <button className="hover">Resume</button>
-        </a>
-      </div>
+        </div>
+     
     </section>
   );
 }

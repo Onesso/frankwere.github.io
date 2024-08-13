@@ -25,19 +25,21 @@ body {
   background-color: var(--background-color);
   display: flex;
   justify-content: center;
-  margin: 0 auto 60px;
+  margin: auto;
 }
+
 
 #root {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 30px;
 }
 
 h1,
 h2,
 a,
 h3,
+button,
 p {
   color: var(--text-color);
   margin: 0;
@@ -80,7 +82,7 @@ p {
 
 @media (width >= 800px) {
   #root {
-    gap: 80px;
+    gap: 40px;
   }
 
   h1 {
