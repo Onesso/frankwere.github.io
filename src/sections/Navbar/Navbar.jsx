@@ -3,6 +3,7 @@ import { useRef } from "react";
 import styles from "./navigationBarStyles.module.css";
 import { FaBars } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 export default function navigationBar() {
   const navRef = useRef();
@@ -20,9 +21,15 @@ export default function navigationBar() {
         <header>
           <h3>logo</h3>
           <nav className={styles.navigation} ref={navRef}>
-            <a href="">Projects</a>
-            <a href="">Skills</a>
-            <a href="">Contact</a>
+            <Link to="projects" duration={500} smooth={true}>
+              Projects
+            </Link>
+            <Link to="Skills" duration={500} smooth={true}>
+              Skills
+            </Link>
+            <Link to="contact" duration={500} smooth={true}>
+              Contacts
+            </Link>
             <a href="">Blog</a>
             <button className={styles.closeBtn} onClick={showNavBar}>
               <FaTimes />

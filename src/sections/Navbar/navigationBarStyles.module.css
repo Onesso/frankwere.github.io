@@ -12,9 +12,8 @@
     align-items: center;
     justify-content: space-between;
     height: auto;
-    padding: 1rem 0 ;
+    padding: 1rem 0;
     background-color: transparent;
-   
 
     h3 {
       visibility: hidden;
@@ -59,11 +58,11 @@
   }
 
   @media only screen and (max-width: 1024px) {
-    .container {
+    /* .container {
       position: fixed;
-    }
+    } */
     header .navigation {
-      position: fixed;
+      position: absolute;
       top: 0;
       left: 0;
       height: 100%;
@@ -73,10 +72,11 @@
       align-items: center;
       justify-content: center;
       gap: 1.5rem;
-      background-color: rgb(14, 156, 161);
-      opacity: 1;
+      background-color: var(--background-color);
+
       transition: 1s;
       transform: translateX(100vh);
+      z-index: 1;
 
       .closeBtn {
         visibility: visible;
@@ -84,12 +84,10 @@
         position: absolute;
         top: 2rem;
         left: 18rem;
-   
       }
     }
 
     header .openBtn {
-
       visibility: visible;
       opacity: 1;
     }
