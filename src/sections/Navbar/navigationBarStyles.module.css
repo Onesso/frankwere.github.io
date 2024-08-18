@@ -1,5 +1,6 @@
 :root {
   --secondarycolor: rgb(73, 209, 250);
+  --activeclick: rgb(31, 119, 243);
 }
 [data-them="light"] {
   --background-color: #ffffff;
@@ -29,6 +30,10 @@
 
       a:hover {
         color: var(--secondarycolor);
+      }
+
+      a:active {
+        color: var(--activeclick);
       }
 
       .closeBtn {
@@ -75,7 +80,7 @@
       background-color: var(--background-color);
 
       transition: 1s;
-      transform: translateX(100vh);
+      transform: translateX(-100vh);
       z-index: 1;
 
       .closeBtn {

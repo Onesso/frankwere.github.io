@@ -21,14 +21,14 @@ export default function navigationBar() {
         <header>
           <h3>logo</h3>
           <nav className={styles.navigation} ref={navRef}>
-            <Link to="projects" duration={500} smooth={true}>
+            <Link to="projects" duration={1000} smooth={true}>
               Projects
             </Link>
-            <Link to="Skills" duration={500} smooth={true}>
+            <Link to="Skills" duration={1000} smooth={true}>
               Skills
             </Link>
-            <Link to="contact" duration={500} smooth={true}>
-              Contacts
+            <Link to="contact" duration={1000} smooth={true} >
+              Contact
             </Link>
             <a href="">Blog</a>
             <button className={styles.closeBtn} onClick={showNavBar}>
