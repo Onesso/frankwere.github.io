@@ -12,25 +12,25 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={viber}
-          link="https://x.com/FrankOdhis1"
+          link="https://fact-blog.vercel.app/"
           h3="Viber"
           p="Streaming app"
         />
         <ProjectCard
           src={freshburger}
-          link="https://x.com/FrankOdhis1"
+          link="https://fact-blog.vercel.app/"
           h3="Fresh Burger"
           p="Hamburger restaurant"
         />
         <ProjectCard
           src={fitlift}
-          link="https://x.com/FrankOdhis1"
+          link="https://fact-blog.vercel.app/"
           h3="Viber"
           p="Streaming app"
         />
         <ProjectCard
           src={hipsster}
-          link="https://x.com/FrankOdhis1"
+          link="https://fact-blog.vercel.app/"
           h3="Viber"
           p="Streaming app"
         />
