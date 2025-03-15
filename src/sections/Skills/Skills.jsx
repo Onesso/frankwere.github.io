@@ -31,7 +31,7 @@ function Skills() {
         <SkillsList src={checkMarkIcon} skill={"Git"} />
         <SkillsList src={checkMarkIcon} skill={"Boostrap"} />
         <SkillsList src={checkMarkIcon} skill={"Ant Design"} />
-        <SkillsList src={checkMarkIcon} skill={"Material ui"} />
+        <SkillsList src={checkMarkIcon} skill={"NativeWind"} />
       </div>
     </section>
   );

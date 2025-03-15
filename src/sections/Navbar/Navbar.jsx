@@ -30,7 +30,7 @@ export default function navigationBar() {
             <Link to="contact" duration={1000} smooth={true} >
               Contact
             </Link>
-            <a href="">Blog</a>
+           
             <button className={styles.closeBtn} onClick={showNavBar}>
               <FaTimes />
             </button>

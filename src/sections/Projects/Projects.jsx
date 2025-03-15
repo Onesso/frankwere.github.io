@@ -13,26 +13,26 @@ function Projects() {
         <ProjectCard
           src={viber}
           link="https://fact-blog.vercel.app/"
-          h3="Viber"
-          p="Streaming app"
+          h3="Blog"
+          p="Fact-blog"
         />
         <ProjectCard
           src={freshburger}
-          link="https://fact-blog.vercel.app/"
-          h3="Fresh Burger"
-          p="Hamburger restaurant"
+          link="https://github.com/Onesso/Ecommerce-project-client-side"
+          h3="e-biashara"
+          p="online bookstore"
         />
         <ProjectCard
           src={fitlift}
-          link="https://fact-blog.vercel.app/"
-          h3="Viber"
-          p="Streaming app"
+          link="https://github.com/Onesso/mpesa_stkpush"
+          h3="Mpesa"
+          p="stk Push"
         />
         <ProjectCard
           src={hipsster}
-          link="https://fact-blog.vercel.app/"
-          h3="Viber"
-          p="Streaming app"
+          link="https://onesso.github.io/tour-destination/"
+          h3="Discover"
+          p="Hidded gems app"
         />
       </div>
     </section>

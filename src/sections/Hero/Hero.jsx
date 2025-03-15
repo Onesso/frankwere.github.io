@@ -11,6 +11,7 @@ import githubIconDark from "../../assets/github-dark.svg";
 import linkedinIconlight from "../../assets/linkedin-light.svg";
 import linkedinIconDark from "../../assets/linkedin-dark.svg";
 import cv from "../../assets/cv.pdf";
+
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -41,7 +42,7 @@ function Hero() {
           />
         </div>
 
-        
+
         <div className={styles.info}>
           <h1>
             Frank <br /> Were
@@ -78,7 +79,7 @@ function Hero() {
             <button className="hover">Resume</button>
           </a>
         </div>
-     
+
     </section>
   );
 }
